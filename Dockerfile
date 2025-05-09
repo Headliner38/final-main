@@ -16,7 +16,4 @@ COPY . .
 RUN go build -o parcel .
 
 
-EXPOSE 8080
-
-
 CMD ["./parcel"]
